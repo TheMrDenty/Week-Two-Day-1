@@ -1,0 +1,57 @@
+.container {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(180, 178, 178, 0.729);
+    max-width: 500px;
+    padding: 5px 20px 10px 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 11px 3px #382e2e;
+    border-radius: 25px;
+
+    
+}
+form {
+    display: block;
+    text-align: center;
+}
+
+label {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #753E5E;
+    background: #e8e8e8;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-size: 20px;
+}
+.login {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+.register {
+    display: block;
+    text-align: center;
+}
+button {
+    margin: 30px;
+    box-shadow: 0px 0px 11px 3px #212020;
+    border-radius: 10px;
+    padding: 4px;
+    border-style: none;
+    background-color: #5AFF9C;
+    width: 100px;
+}
+input {
+    box-shadow: 0px 0px 11px 3px #f2f2f2;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+html {
+    background: #5AFF9C;
+    background: linear-gradient(45deg, #5AFF9C 0%, #93CBC1 31%, #753E5E 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
